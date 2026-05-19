@@ -70,8 +70,9 @@ Main class:
 com.mojang.rubydung.RubyDung
 
 Working directory:
-
+```
 $PROJECT_DIR$
+```
 
 JRE:
 
