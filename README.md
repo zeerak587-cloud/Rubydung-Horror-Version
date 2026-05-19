@@ -1,16 +1,19 @@
 # RubyDung Horror Edition
 
-A modified version of Minecraft's ancient prototype: RubyDung (rd-132211).
+A modified version of Minecraft's ancient prototype, RubyDung (rd-132211).
+
+![RubyDung Screenshot](screenshot.png)
+
+---
 
 ## Features
 
 - Blood-red sky
-- Horror fog
-- Fullscreen support
+- Red grass
+- Fullscreen mode
 - Mouse capture
-- Editable textures
-- IntelliJ setup
 - Java 8 support
+- IntelliJ IDEA project setup
 
 ---
 
@@ -22,24 +25,25 @@ A modified version of Minecraft's ancient prototype: RubyDung (rd-132211).
 
 ---
 
-## Setup
+## Getting Started
 
-### Install Java 8
+### 1. Install Java 8
 
-Recommended:
+Recommended download:
+
 https://adoptium.net/temurin/releases/?version=8
 
 ---
 
-### Open Project
+### 2. Open the Project
 
 Open the project root in IntelliJ IDEA.
 
 ---
 
-### Add LWJGL Libraries
+### 3. Add LWJGL Libraries
 
-Add these jars:
+Add these libraries to the project:
 
 - lwjgl-2.9.4-nightly-20150209.jar
 - lwjgl_util-2.9.4-nightly-20150209.jar
@@ -57,7 +61,7 @@ into:
 
 C:\rubydung-natives
 
-VM options:
+Add this VM option in IntelliJ:
 
 -Djava.library.path=C:\rubydung-natives
 
@@ -65,46 +69,45 @@ VM options:
 
 ## IntelliJ Run Configuration
 
-Main class:
+### Main class
 
 com.mojang.rubydung.RubyDung
 
-Working directory:
-```
-$PROJECT_DIR$
-```
+### Working directory
 
-JRE:
+$PROJECT_DIR$
+
+### JRE
 
 Java 8
 
 ---
 
-## Saves
+## Controls
 
-World saves are stored in:
-
-level.dat
-
-Delete level.dat to reset the world.
+| Key | Action |
+|---|---|
+| WASD | Move |
+| Mouse | Look around |
+| Left Click | Place block |
+| Right Click | Destroy block |
+| ESC | Quit |
 
 ---
 
-## Controls
+## Save File
 
-- WASD = move
-- Mouse = look
-- Left click = place block
-- Right click = destroy block
-- ESC = quit
+World data is stored in:
+
+level.dat
 
 ---
 
 ## Notes
 
-This project uses decompiled RubyDung source code from the Minecraft rd-132211 prototype.
+RubyDung is an extremely old Minecraft prototype and uses LWJGL 2.
 
-LWJGL 2 is extremely old and may behave strangely on modern systems.
+Some modern systems may experience compatibility issues.
 
 ---
 
