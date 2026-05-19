@@ -2,7 +2,7 @@
 
 A modified version of Minecraft's ancient prototype, RubyDung (rd-132211).
 
-![RubyDung Screenshot](screenshot.png)
+![RubyDung Screenshot](screenpic.png)
 
 ---
 
