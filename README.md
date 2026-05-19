@@ -75,7 +75,7 @@ com.mojang.rubydung.RubyDung
 
 ### Working directory
 
-$PROJECT_DIR$
+`$PROJECT_DIR$`
 
 ### JRE
 
