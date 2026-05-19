@@ -1,3 +1,4 @@
+make a readme
 # RubyDung Horror Edition
 
 A modified version of Minecraft's ancient prototype: RubyDung (rd-132211).
@@ -42,5 +43,47 @@ Extract DLLs from:
 
 into:
 
-```text
 C:\rubydung-natives
+
+Then add VM options:
+
+-Djava.library.path=C:\rubydung-natives
+IntelliJ Run Configuration
+
+Main class:
+
+com.mojang.rubydung.RubyDung
+
+Working directory:
+
+$PROJECT_DIR$
+
+JRE:
+
+Java 8
+Saves
+
+World saves are stored in:
+
+level.dat
+
+inside the project root.
+
+Delete level.dat to reset the world.
+
+Controls
+WASD → move
+Mouse → look
+Left click → place block
+Right click → destroy block
+ESC → quit
+Notes
+
+This project uses decompiled RubyDung source code from the Minecraft rd-132211 prototype.
+
+LWJGL 2 is extremely old and may behave strangely on modern systems.
+
+License
+
+For educational and preservation purposes only.
+
